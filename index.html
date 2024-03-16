@@ -9,25 +9,33 @@
 </head>
 <body>
     <header>
-        <img src="./images/Top.png">
+        <img class="logo" src="./images/Top.png">
     </header>
     <main>
-        <section>
-            <input placeholder="Ingrese el texto aquí">
+        <section class="section-texto">
+            <input class="ingrese-texto" placeholder="Ingrese el texto aqui"></input>
             <p>Solo letras minúsculas y sin acentos</p>
-            <input type="submit" value="Encriptar">
-            <input type="submit" value="Desencriptar">
+            <div>
+                <input class="button-encriptar" type="submit" value="Encriptar">
+                <input class="button-desencriptar" type="submit" value="Desencriptar">
+            </div>
+            
         </section>
 
-        <section>
-            <img src="./images/Muñeco.png">
+        <section class="section-receptor">
+            <img class="muñeco" src="./images/Muñeco.png">
             <h2>Ningún mensaje fue encontrado</h2>
             <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            <input class="button-copiar" type="submit" value="Copiar">
         </section>
        
     </main>
     <footer>
-        <p>Desarrollado por Esteban Leonel Anchaba</p>
+        <div class="container">
+            <div class="ribbon">
+              <div class="text">Desarrollado por Esteban Leonel Anchaba. 2024.</div>
+            </div>
+          </div>
     </footer>
 
     <script src="script.js"></script>
